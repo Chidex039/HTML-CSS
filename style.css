@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+iframe,
+img,
+video {
+  max-width: 100%;
+}
+
+nav {
+  background-color: bisque;
+  box-shadow: 0px 0px 10px 0px rgb(49, 52, 53);
+}
+.navbar {
+  display: flex;
+  max-width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 0rem;
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0;
+}
+
+#navlinks {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(3, 3, 106);
+}
+
+nav a:hover {
+  background-color: blue;
+  color: white;
+  border-radius: 1rem;
+}
+
+/*#AboutSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  border: 0.2rem solid red;
+  max-width: fit-content;
+  padding: 10px 10px;
+  margin-left: 2rem;
+}
+*/
+#AboutSection {
+  display: flex;
+  gap: 3rem;
+  max-width: 1000px;
+  justify-content: center;
+  margin-top: 3rem;
+  /*border: 0.2rem solid red;*/
+  margin-inline: auto;
+  margin-bottom: 3rem;
+}
+
+.profile {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 100%;
+  width: 4rem;
+  height: 4.2rem;
+}
+.profile h1 {
+  background-color: bisque;
+  width: 15rem;
+  color: rgb(3, 3, 106);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutMe {
+  display: flex;
+  max-width: 450px;
+
+  display: inline;
+  text-align: justify;
+  /*border: 0.1rem solid blue;*/
+  padding: 0.5rem 0.5rem;
+  background-color: rgb(236, 229, 219);
+}
+
+.AboutMe p {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.video {
+  max-width: 500px;
+  /*border: 0.1rem solid blue;*/
+  padding: 0.5rem 0.5rem;
+  background-color: rgb(236, 229, 219);
+}
+
+.video h1 {
+  background-color: bisque;
+  color: rgb(3, 3, 106);
+}
+
+.video iframe {
+  padding-top: 0.5rem;
+}
+
+#Resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin-inline: auto;
+  background-color: rgb(236, 229, 219);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+#Resume h2 {
+  color: rgb(3, 3, 106);
+  background-color: bisque;
+  margin-bottom: 2rem;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Contact {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(236, 229, 219);
+}
+
+.form {
+  max-width: 600px;
+  /*border: 0.1rem solid blue;*/
+  padding: 0.5rem 2rem 2rem 2rem;
+  margin: 1.7rem;
+  background: linear-gradient(rgba(16, 7, 65, 0.879), #32225dbe);
+  border-radius: 2rem;
+}
+
+.form h2 {
+  background-color: bisque;
+  color: rgb(3, 3, 106);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  margin: 8px 0;
+  border-radius: 40px;
+  height: 2rem;
+  border: none;
+  width: 8rem;
+  display: flex;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#Contact .form form {
+  font-size: 1rem;
+  max-width: 600px;
+  display: flex;
+  row-gap: 0.5rem;
+  flex-direction: column;
+}
+
+.space {
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 40px;
+  border: none;
+}
+
+#AudioElement {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  margin-top: 2rem;
+  background-color: rgb(236, 229, 219);
+  padding: 2rem 2rem;
+  border-radius: 1.5rem;
+}
+
+#footer {
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  margin-top: 2rem;
+  background-color: rgb(236, 229, 219);
+  padding: 2rem 2rem;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
